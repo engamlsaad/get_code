@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&family=Barlow:wght@300;400;500;600;700&family=Berkshire+Swash&family=Cairo:wght@700&family=Courgette&family=Dancing+Script:wght@400;500;600;700&family=Domine:wght@500&family=Dosis:wght@500;600;700;800&family=Fredericka+the+Great&family=Gideon+Roman&family=Heebo:wght@300;400;500;600;700;800;900&family=Inria+Serif:ital,wght@1,300;1,400&family=Jomhuria&family=Josefin+Sans:wght@200;300;400;500;600;700&family=Kaisei+Tokumin:wght@500;700;800&family=Kaushan+Script&family=Libre+Baskerville&family=Lobster&family=Lobster+Two&family=Noto+Serif:wght@700&family=Nunito:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;500;600;700&family=Playfair+Display:wght@800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@400;900&family=Roboto+Slab:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Cake Bakery</title>
+    <link rel="icon" href="image/logo.png" type="image/icon">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg" id="navigation">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="image/logo.png"/><span>Cake <span class="bakery">Bakery</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><img src="image/menu.png"/></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Birthday <span class="bakery">Cake</span></a></li>
+                  <li><a class="dropdown-item" href="#">Chocolate <span class="bakery">Cake</span></a></li>
+                  <li><a class="dropdown-item" href="#">Party <span class="bakery">Cake</span></a></li>
+                  <li><a class="dropdown-item" href="#">Slice <span class="bakery">Cake</span></a></li>
+                  <li><a class="dropdown-item" href="#">Cup <span class="bakery">Cake</span></a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Galery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="icons">
+            <a href="#"><img src="image/user.png"/></a>
+            <a href="#"><img src="image/heart.png"/></a>
+            <a href="#"><img src="image/add.png"/></a>
+        </div>
+        </div>
+      </nav>
+    <!-- End Navbar -->
+    <!-- Start Home -->
+    <section id="home" class="section-padding">
+      <div class="container">
+        <div class="text text-white">
+          <h3>Delicious<br/>Cakes <span class="bakery">Bakery</span></h3>
+          <h2>Category <span class="items"></span></h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error,<br/>Lorem ipsum dolor sit amet consectetur.</p>
+          <a href="#" class="btn">Order Now</a>
+        </div>
+        <div class="img">
+          <img class="img-fluid" src="image/background.png"/>
+        </div>
+      </div>
+    </section>
+    <!-- End Home -->
+    <!-- Start Box Section -->
+    <section class="box section-padding">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <img class="img-fluid" src="image/box1.jpg"/>
+          </div>
+          <div class="col-md-4">
+            <img class="img-fluid" src="image/box2.jpg"/>
+          </div>
+          <div class="col-md-4">
+            <img class="img-fluid" src="image/box3.jpg"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Box Section -->
+    <!-- Start Banner Section -->
+    <section class="banner section-padding">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6 text">
+            <h1>Delicious <span class="bakery">Cake</span><br/>UPTO <span class="bakery">50%</span> <span class="bakery">OFF</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quod.</p>
+            <button type="button">Order Now</button>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img class="img-fluid" src="image/banner-background.png"/>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Banner Section -->
+    <!-- Start Cakes Section -->
+    <section class="cakes section-padding">
+      <div class="container">
+        <div class="title text-center">
+          <h1>CAkES</h1>
+        </div>
+        <div class="row gx-4 gy-5">
+          <div class="col-md-3">
+            <div class="cake-box">
+              <img class="img-fluid text-center" src="image/c1.png"/>
+              <h3 class="text-white mt-3">Cream <span class="bakery">Cake</span></h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star item"></i>
+                <i class="fa-solid fa-star item"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <div class="payment">
+                <span>$50.10</span>
+                <button type="button">Add Cart</button>
+              </div>
+              <div class="icons">
+               <a href="#" title="Quick View"> <img src="image/views.png"/></a>
+               <a href="#" title="Quick View"> <img src="image/heart.png"/></a>
+               <a href="#" title="Quick View"> <img src="image/add.png"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="cake-box">
+              <img class="img-fluid text-center" src="image/c2.png"/>
+              <h3 class="text-white mt-3">Cream <span class="bakery">Cake</span></h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star item"></i>
+                <i class="fa-solid fa-star item"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <div class="payment">
+                <span>$50.10</span>
+                <button type="button">Add Cart</button>
+              </div>
+              <div class="icons">
+               <a href="#" title="Quick View"> <img src="image/views.png"/></a>
+               <a href="#" title="Quick View"> <img src="image/heart.png"/></a>
+               <a href="#" title="Quick View"> <img src="image/add.png"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="cake-box">
+              <img class="img-fluid text-center" src="image/c3.png"/>
+              <h3 class="text-white mt-3">Cream <span class="bakery">Cake</span></h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star item"></i>
+                <i class="fa-solid fa-star item"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <div class="payment">
+                <span>$50.10</span>
+                <button type="button">Add Cart</button>
+              </div>
+              <div class="icons">
+               <a href="#" title="Quick View"> <img src="image/views.png"/></a>
+               <a href="#" title="Quick View"> <img src="image/heart.png"/></a>
+               <a href="#" title="Quick View"> <img src="image/add.png"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="cake-box">
+              <img class="img-fluid text-center" src="image/c4.png"/>
+              <h3 class="text-white mt-3">Cream <span class="bakery">Cake</span></h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star item"></i>
+                <i class="fa-solid fa-star item"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <div class="payment">
+                <span>$50.10</span>
+                <button type="button">Add Cart</button>
+              </div>
+              <div class="icons">
+               <a href="#"> <img src="image/views.png"/></a>
+               <a href="#"> <img src="image/heart.png"/></a>
+               <a href="#"> <img src="image/add.png"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="cake-box">
+              <img class="img-fluid text-center" src="image/c5.png"/>
+              <h3 class="text-white mt-3">Cream <span class="bakery">Cake</span></h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star item"></i>
+                <i class="fa-solid fa-star item"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <div class="payment">
+                <span>$50.10</span>
+                <button type="button">Add Cart</button>
+              </div>
+              <div class="icons">
+               <a href="#"> <img src="image/views.png"/></a>
+               <a href="#"> <img src="image/heart.png"/></a>
+               <a href="#"> <img src="image/add.png"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="cake-box">
+              <img class="img-fluid text-center" src="image/c6.png"/>
+              <h3 class="text-white mt-3">Cream <span class="bakery">Cake</span></h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star item"></i>
+                <i class="fa-solid fa-star item"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <div class="payment">
+                <span>$50.10</span>
+                <button type="button">Add Cart</button>
+              </div>
+              <div class="icons">
+               <a href="#"> <img src="image/views.png"/></a>
+               <a href="#"> <img src="image/heart.png"/></a>
+               <a href="#"> <img src="image/add.png"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="cake-box">
+              <img class="img-fluid text-center" src="image/c7.png"/>
+              <h3 class="text-white mt-3">Cream <span class="bakery">Cake</span></h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star item"></i>
+                <i class="fa-solid fa-star item"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <div class="payment">
+                <span>$50.10</span>
+                <button type="button">Add Cart</button>
+              </div>
+              <div class="icons">
+               <a href="#"> <img src="image/views.png"/></a>
+               <a href="#"> <img src="image/heart.png"/></a>
+               <a href="#"> <img src="image/add.png"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="cake-box">
+              <img class="img-fluid text-center" src="image/c8.png"/>
+              <h3 class="text-white mt-3">Cream <span class="bakery">Cake</span></h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star item"></i>
+                <i class="fa-solid fa-star item"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <div class="payment">
+                <span>$50.10</span>
+                <button type="button">Add Cart</button>
+              </div>
+              <div class="icons">
+               <a href="#"> <img src="image/views.png"/></a>
+               <a href="#"> <img src="image/heart.png"/></a>
+               <a href="#"> <img src="image/add.png"/></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Cakes Section -->
+    <!-- Start Birthday Section -->
+    <section class="birthday section-padding">
+      <div class="container">
+        <div class="title text-center">
+          <h1>BIRTHDAY CAKE</h1>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-3">
+            <div class="cake-box">
+              <img class="img-fluid text-center" src="image/c9.png"/>
+              <h3 class="text-white mt-3">Cream <span class="bakery">Cake</span></h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star item"></i>
+                <i class="fa-solid fa-star item"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <div class="payment">
+                <span>$50.10</span>
+                <button type="button">Add Cart</button>
+              </div>
+              <div class="icons">
+               <a href="#"> <img src="image/views.png"/></a>
+               <a href="#"> <img src="image/heart.png"/></a>
+               <a href="#"> <img src="image/add.png"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="cake-box">
+              <img class="img-fluid text-center" src="image/c10.png"/>
+              <h3 class="text-white mt-3">Cream <span class="bakery">Cake</span></h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star item"></i>
+                <i class="fa-solid fa-star item"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <div class="payment">
+                <span>$50.10</span>
+                <button type="button">Add Cart</button>
+              </div>
+              <div class="icons">
+               <a href="#"> <img src="image/views.png"/></a>
+               <a href="#"> <img src="image/heart.png"/></a>
+               <a href="#"> <img src="image/add.png"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="cake-box">
+              <img class="img-fluid text-center" src="image/c11.png"/>
+              <h3 class="text-white mt-3">Cream <span class="bakery">Cake</span></h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star item"></i>
+                <i class="fa-solid fa-star item"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <div class="payment">
+                <span>$50.10</span>
+                <button type="button">Add Cart</button>
+              </div>
+              <div class="icons">
+               <a href="#"> <img src="image/views.png"/></a>
+               <a href="#"> <img src="image/heart.png"/></a>
+               <a href="#"> <img src="image/add.png"/></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="cake-box">
+              <img class="img-fluid text-center" src="image/c12.png"/>
+              <h3 class="text-white mt-3">Cream <span class="bakery">Cake</span></h3>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star item"></i>
+                <i class="fa-solid fa-star item"></i>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <div class="payment">
+                <span>$50.10</span>
+                <button type="button">Add Cart</button>
+              </div>
+              <div class="icons">
+               <a href="#"> <img src="image/views.png"/></a>
+               <a href="#"> <img src="image/heart.png"/></a>
+               <a href="#"> <img src="image/add.png"/></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Birthday Section -->
+    <!-- Start Gallery Section -->
+    <section class="gallery section=padding">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="img">
+              <img class="img-fluid" src="image/o1.png"/>
+              <h3 class="text-white">Donuts</h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="img">
+              <img class="img-fluid" src="image/o2.png"/>
+              <h3 class="text-white">Donuts</h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="img">
+              <img class="img-fluid" src="image/o3.png"/>
+              <h3 class="text-white">Donuts</h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="img">
+              <img class="img-fluid" src="image/o4.png"/>
+              <h3 class="text-white">Donuts</h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="img">
+              <img class="img-fluid" src="image/o5.png"/>
+              <h3 class="text-white">Donuts</h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="img">
+              <img class="img-fluid" src="image/o6.png"/>
+              <h3 class="text-white">Donuts</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Gallery Section -->
+    <!-- Start About Section -->
+    <section class="about section-padding">
+      <div class="container">
+        <div class="title text-center mb-3">
+          <h1>ABOUT US</h1>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6">
+            <img class="img-fluid" src="image/about.png"/>
+          </div>
+          <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias explicabo nulla dicta perferendis cupiditate autem assumenda unde fugit? Corrupti ipsa fugiat similique voluptate temporibus, cupiditate cumque iusto? Necessitatibus suscipit qui molestias odit ad aspernatur harum aliquid ipsam nisi, culpa quae, magnam dolores cupiditate velit exercitationem ratione deleniti dignissimos labore quia esse ea quos consequuntur perferendis aliquam. Est assumenda doloremque nobis, tenetur fuga similique eligendi nihil non officia possimus aliquid animi nisi ipsum qui veritatis repellat harum accusamus odit iusto laudantium voluptatum ipsa ut fugit veniam. Voluptates sint molestiae officia consequuntur iure repudiandae autem reiciendis, perspiciatis veritatis soluta quia velit necessitatibus.</p>
+            <button type="button">Read More...</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+    <!-- Start Contact Section -->
+    <section class="contact section-padding">
+      <div class="container">
+        <div class="title text-center mb-3">
+          <h1>CONTACT US</h1>
+        </div>
+        <div class="row g-4 d-flex justify-content-center align-items-center">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="mb-3">
+                  <input type="text" class="form-control" placeholder="Name"/>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="mb-3">
+                  <input type="email" class="form-control" placeholder="Email"/>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="mb-3">
+                  <input type="number" class="form-control" placeholder="Phone"/>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mb-3">
+              <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+            </div>
+            <div class="col-auto text-center">
+              <button type="submit" class="mb-3">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+    <!-- Start Footer Section -->
+    <footer class="text-center pt-4 text-white">
+      <div class="container">
+        <h1>Cake <span class="bakery">Bakery</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, accusantium.</p>
+        <div class="icons my-3">
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-google"></i></a>
+          <a href="#"><i class="fa-brands fa-skype"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>&copy; Copyright <span class="fw-bold">Cake Bakery</span> .All Rights Reserved</p>
+        <p class="end mb-0">Designed By <a href="#">SA coding</a></p>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+    <a href="#navigation" class="arrow"><img src="image/up-arrow.png"/></a>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
